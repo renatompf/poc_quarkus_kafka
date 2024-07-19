@@ -1,0 +1,17 @@
+meta {
+  name: Send message
+  type: http
+  seq: 1
+}
+
+post {
+  url: localhost:8080/producer
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "message": "SEGUNDA FEIRA VOU FODER AQUELA MERDA TODA CARALHOOOOOO"
+  }
+}

@@ -1,0 +1,19 @@
+meta {
+  name: Send User
+  type: http
+  seq: 2
+}
+
+post {
+  url: localhost:8080/producer/user
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name":"John Smith",
+      "email":"john_smith@mail.com",
+      "phoneNumber":911111111
+  }
+}

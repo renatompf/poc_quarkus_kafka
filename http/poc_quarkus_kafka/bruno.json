@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "poc_quarkus_kafka",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
